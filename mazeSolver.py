@@ -186,7 +186,7 @@ class MazeGrid:
         self._starty = 0    # initialize starting y position
 
         if (len(blueprint) == 0):
-            error("ERR: blueprint must contain both a start and end point")
+            error("ERR: empty blueprint : must contain both a start and end point")
 
         rows = blueprint.split('\n')
         self._height = len(rows)
